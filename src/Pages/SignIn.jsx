@@ -1,7 +1,7 @@
 // src/Pages/SignIn.jsx
 import { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { useAuth } from '../state/AuthContext.jsx';
+import { useAuth } from '../State/AuthContext.jsx';
 import { createLeaderboardUser } from '../services/auth.service'; // service where createLeaderboardUser lives
 import BrandLogo from '../Components/BrandLogo.jsx';
 

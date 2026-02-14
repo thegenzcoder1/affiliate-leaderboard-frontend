@@ -8,7 +8,7 @@ import AdminRoute from "./Components/AdminRoute.jsx";
 import Contact from "./Pages/Contact.jsx";
 import Admin from "./Pages/Admin.jsx";
 import AppLayout from "./layouts/AppLayout.jsx";
-import { useAuth } from "./state/AuthContext.jsx";
+import { useAuth } from "./State/AuthContext.jsx";
 
 // Helper: redirect /profile → /profile/:username
 function ProfileRedirect() {

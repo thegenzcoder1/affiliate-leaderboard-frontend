@@ -1,7 +1,7 @@
 // src/Components/Navbar.jsx
 import { useState } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
-import { useAuth } from '../state/AuthContext.jsx';
+import { useAuth } from '../State/AuthContext.jsx';
 import BrandLogo from "./BrandLogo.jsx";
 
 export default function Navbar() {
