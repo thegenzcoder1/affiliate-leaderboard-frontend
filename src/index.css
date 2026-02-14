@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+:root {
+  --ring-color: 59 130 246; /* Tailwind blue-500 */
+}
+.dark :root {
+  --ring-color: 129 140 248; /* Tailwind indigo-400 */
+}
